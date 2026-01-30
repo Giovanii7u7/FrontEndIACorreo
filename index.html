@@ -9,23 +9,38 @@
 
   <h1>Información de Servicios Escolares</h1>
 
- <section>
-  <h2>📅 Fechas escolares</h2>
-  <textarea id="fechas" disabled></textarea>
-</section>
+  <section>
+    <h2>📅 Fechas escolares</h2>
+    <textarea id="fechas" disabled></textarea>
+  </section>
 
-<section>
-  <h2>💰 Costos</h2>
-  <textarea id="costos" disabled></textarea>
-</section>
+  <section>
+    <h2>💰 Costos</h2>
+    <textarea id="costos" disabled></textarea>
+  </section>
 
-<section>
-  <h2>🎓 Becas</h2>
-  <textarea id="becas" disabled></textarea>
-</section>
+  <section>
+    <h2>🎓 Becas</h2>
+    <textarea id="becas" disabled></textarea>
+  </section>
 
-<button id="editarBtn">Editar</button>
-<button id="guardarBtn" disabled>Guardar cambios</button>
+  <button id="editarBtn">Editar</button>
+  <button id="guardarBtn" disabled>Guardar cambios</button>
+
+  <hr>
+
+  <section>
+    <h2>🤖 Agente de correos</h2>
+
+    <p>
+      Estado actual:
+      <strong id="estadoAgente">Cargando...</strong>
+    </p>
+
+    <button id="toggleAgenteBtn" disabled>
+      Cargando...
+    </button>
+  </section>
 
   <script src="script.js"></script>
 </body>
